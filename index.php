@@ -64,6 +64,7 @@ switch ($action) {
                 $_SESSION['theme'] = $thisUser->getTheme();
                 $_SESSION['emailAddress'] = $thisUser->getEmailAddress();
                 $_SESSION['permission'] = $thisUser->getPermission();
+                $_SESSION['user_id'] = $thisUser->getUserID();
                 $action = 'userHome';
                 include 'view/userHome.php';
             } else {
@@ -121,6 +122,7 @@ switch ($action) {
         $week = filter_input(INPUT_GET, 'week');
         $games = db_select::select_weekly_games($week);
         include 'view/weeklyPicks.php';
+        //header('Location: index.php?action=weeklyPicks&week=1');
         die();
         break;
     

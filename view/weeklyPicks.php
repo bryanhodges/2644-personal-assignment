@@ -48,7 +48,7 @@ and open the template in the editor.
             </form>
         
         <div id="bottom">
-             <a href='index.php?action=weeklyPicks&week=1'>1</a> &nbsp; <a href='index.php?action=weeklyPicks&week=2'>2</a>
+             Week <a href='index.php?action=weeklyPicks&week=1'>1</a> &nbsp; <a href='index.php?action=weeklyPicks&week=2'>2</a>
             
            <!-- <td><a href = 'index.php?action=otherProfile&user=< ?php echo $user->getUsername(); ?>'> < ?php echo $user->getUsername(); ?></a></td>-->
         </div>
