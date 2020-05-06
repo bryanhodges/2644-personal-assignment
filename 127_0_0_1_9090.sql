@@ -3,9 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:9090
--- Generation Time: Jun 06, 2019 at 05:16 AM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.3
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -74,36 +72,36 @@ CREATE TABLE `schedule` (
 --
 
 INSERT INTO `schedule` (`GameID`, `Week`, `Date`, `Time`, `VisitorID`, `VisitorScore`, `PointSpread`, `HomeID`, `HomeScore`, `OT`, `Result`, `ATSResult`) VALUES
-(1, 1, '2019-09-05', '19:20:00', 'GB', 8, NULL, 'CHI', 1, NULL, 'GB', NULL),
-(2, 1, '2019-09-08', '12:00:00', 'ATL', 4, NULL, 'MIN', 6, NULL, 'MIN', NULL),
-(3, 1, '2019-09-08', '12:00:00', 'NYJ', 9, NULL, 'BUF', 2, NULL, 'NYJ', NULL),
-(4, 1, '2019-09-08', '12:00:00', 'WAS', 2, NULL, 'PHI', 6, NULL, 'PHI', NULL),
-(5, 1, '2019-09-08', '12:00:00', 'KC', 2, NULL, 'JAX', 2, NULL, 'Tie', NULL),
-(6, 1, '2019-09-08', '12:00:00', 'TEN', 2, NULL, 'CLE', 5, NULL, 'CLE', NULL),
-(7, 1, '2019-09-08', '19:20:00', 'BAL', 2, NULL, 'MIA', 9, NULL, 'MIA', NULL),
-(8, 1, '2019-09-08', '12:00:00', 'LAR', 2, NULL, 'CAR', 8, NULL, 'CAR', NULL),
-(9, 1, '2019-09-08', '15:05:00', 'CIN', 3, NULL, 'SEA', 66, NULL, 'SEA', NULL),
-(10, 1, '2019-09-08', '15:25:00', 'SF', 77, NULL, 'TB', 4, NULL, 'SF', NULL),
-(11, 1, '2019-09-08', '15:25:00', 'DET', 44, NULL, 'ARI', 4, NULL, 'DET', NULL),
-(12, 1, '2019-09-08', '19:20:00', 'PIT', 4, NULL, 'NE', 55, NULL, 'NE', NULL),
-(13, 1, '2019-09-09', '18:10:00', 'HOU', 6, NULL, 'NO', 14, NULL, 'NO', NULL),
-(14, 1, '2019-09-09', '21:20:00', 'DEN', 99, NULL, 'OAK', 6, NULL, 'DEN', NULL),
-(15, 2, '2019-09-12', '19:20:00', 'CAR', NULL, NULL, 'TB', NULL, NULL, 'Tie', NULL),
-(16, 2, '2019-09-15', '12:00:00', 'BAL', NULL, NULL, 'ARI', NULL, NULL, 'Tie', NULL),
-(17, 2, '2019-09-15', '12:00:00', 'DET', NULL, NULL, 'LAC', NULL, NULL, 'Tie', NULL),
-(18, 2, '2019-09-15', '12:00:00', 'TEN', NULL, NULL, 'IND', NULL, NULL, 'Tie', NULL),
-(19, 2, '2019-09-15', '12:00:00', 'CIN', NULL, NULL, 'SF', NULL, NULL, 'Tie', NULL),
-(20, 2, '2019-09-15', '12:00:00', 'HOU', NULL, NULL, 'JAX', NULL, NULL, 'Tie', NULL),
-(21, 2, '2019-09-15', '12:00:00', 'GB', NULL, NULL, 'MIN', NULL, NULL, 'Tie', NULL),
-(22, 2, '2019-09-15', '12:00:00', 'WAS', NULL, NULL, 'DAL', NULL, NULL, 'Tie', NULL),
-(23, 2, '2019-09-15', '12:00:00', 'SEA', NULL, NULL, 'PIT', NULL, NULL, 'Tie', NULL),
-(24, 2, '2019-09-15', '12:00:00', 'NYG', NULL, NULL, 'BUF', NULL, NULL, 'Tie', NULL),
-(25, 2, '2019-09-15', '12:00:00', 'MIA', NULL, NULL, 'NE', NULL, NULL, 'Tie', NULL),
-(26, 2, '2019-09-15', '12:00:00', 'OAK', NULL, NULL, 'KC', NULL, NULL, 'Tie', NULL),
-(27, 2, '2019-09-15', '15:25:00', 'LAR', NULL, NULL, 'NO', NULL, NULL, 'Tie', NULL),
-(28, 2, '2019-09-15', '15:25:00', 'DEN', NULL, NULL, 'CHI', NULL, NULL, 'Tie', NULL),
-(29, 2, '2019-09-15', '19:20:00', 'ATL', NULL, NULL, 'PHI', NULL, NULL, 'Tie', NULL),
-(30, 2, '2019-09-16', '19:15:00', 'NYJ', NULL, NULL, 'CLE', NULL, NULL, 'Tie', NULL);
+(1, 1, '2020-09-05', '19:20:00', 'GB', 8, NULL, 'CHI', 1, NULL, 'GB', NULL),
+(2, 1, '2020-09-08', '12:00:00', 'ATL', 4, NULL, 'MIN', 6, NULL, 'MIN', NULL),
+(3, 1, '2020-09-08', '12:00:00', 'NYJ', 9, NULL, 'BUF', 2, NULL, 'NYJ', NULL),
+(4, 1, '2020-09-08', '12:00:00', 'WAS', 2, NULL, 'PHI', 6, NULL, 'PHI', NULL),
+(5, 1, '2020-09-08', '12:00:00', 'KC', 2, NULL, 'JAX', 2, NULL, 'Tie', NULL),
+(6, 1, '2020-09-08', '12:00:00', 'TEN', 2, NULL, 'CLE', 5, NULL, 'CLE', NULL),
+(7, 1, '2020-09-08', '19:20:00', 'BAL', 2, NULL, 'MIA', 9, NULL, 'MIA', NULL),
+(8, 1, '2020-09-08', '12:00:00', 'LAR', 2, NULL, 'CAR', 8, NULL, 'CAR', NULL),
+(9, 1, '2020-09-08', '15:05:00', 'CIN', 3, NULL, 'SEA', 66, NULL, 'SEA', NULL),
+(10, 1, '2020-09-08', '15:25:00', 'SF', 77, NULL, 'TB', 4, NULL, 'SF', NULL),
+(11, 1, '2020-09-08', '15:25:00', 'DET', 44, NULL, 'ARI', 4, NULL, 'DET', NULL),
+(12, 1, '2020-09-08', '19:20:00', 'PIT', 4, NULL, 'NE', 55, NULL, 'NE', NULL),
+(13, 1, '2020-09-09', '18:10:00', 'HOU', 6, NULL, 'NO', 14, NULL, 'NO', NULL),
+(14, 1, '2020-09-09', '21:20:00', 'DEN', 99, NULL, 'OAK', 6, NULL, 'DEN', NULL),
+(15, 2, '2020-09-12', '19:20:00', 'CAR', NULL, NULL, 'TB', NULL, NULL, 'Tie', NULL),
+(16, 2, '2020-09-15', '12:00:00', 'BAL', NULL, NULL, 'ARI', NULL, NULL, 'Tie', NULL),
+(17, 2, '2020-09-15', '12:00:00', 'DET', NULL, NULL, 'LAC', NULL, NULL, 'Tie', NULL),
+(18, 2, '2020-09-15', '12:00:00', 'TEN', NULL, NULL, 'IND', NULL, NULL, 'Tie', NULL),
+(19, 2, '2020-09-15', '12:00:00', 'CIN', NULL, NULL, 'SF', NULL, NULL, 'Tie', NULL),
+(20, 2, '2020-09-15', '12:00:00', 'HOU', NULL, NULL, 'JAX', NULL, NULL, 'Tie', NULL),
+(21, 2, '2020-09-15', '12:00:00', 'GB', NULL, NULL, 'MIN', NULL, NULL, 'Tie', NULL),
+(22, 2, '2020-09-15', '12:00:00', 'WAS', NULL, NULL, 'DAL', NULL, NULL, 'Tie', NULL),
+(23, 2, '2020-09-15', '12:00:00', 'SEA', NULL, NULL, 'PIT', NULL, NULL, 'Tie', NULL),
+(24, 2, '2020-09-15', '12:00:00', 'NYG', NULL, NULL, 'BUF', NULL, NULL, 'Tie', NULL),
+(25, 2, '2020-09-15', '12:00:00', 'MIA', NULL, NULL, 'NE', NULL, NULL, 'Tie', NULL),
+(26, 2, '2020-09-15', '12:00:00', 'OAK', NULL, NULL, 'KC', NULL, NULL, 'Tie', NULL),
+(27, 2, '2020-09-15', '15:25:00', 'LAR', NULL, NULL, 'NO', NULL, NULL, 'Tie', NULL),
+(28, 2, '2020-09-15', '15:25:00', 'DEN', NULL, NULL, 'CHI', NULL, NULL, 'Tie', NULL),
+(29, 2, '2020-09-15', '19:20:00', 'ATL', NULL, NULL, 'PHI', NULL, NULL, 'Tie', NULL),
+(30, 2, '2020-09-16', '19:15:00', 'NYJ', NULL, NULL, 'CLE', NULL, NULL, 'Tie', NULL);
 
 -- --------------------------------------------------------
 
